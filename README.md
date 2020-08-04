@@ -11,6 +11,12 @@ Python scripts to perform somatic variant calling on unpaired samples with a Pan
 - [SGUL Bioinformatics Unit](http://bioinformatics.sgul.ac.uk/)
 - [SGUL Genetics Centre Bioinformatics](https://github.com/sgul-genetics-centre-bioinformatics)
 
+### Prerequisites
+This pipeline has been ran and tested on a Linux server (centOS).
+- Python3
+- GATK tool suite (4.0.4.0 or above)
+- htslib-1.9 or above
+- java installed
 
 ### Run configuration:
 
