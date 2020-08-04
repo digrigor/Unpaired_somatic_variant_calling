@@ -21,6 +21,7 @@ This pipeline has been ran and tested on a Linux server (centOS).
 ### Run configuration:
 
 - **dependencies.py**:  This is the configuration python script to set-up the neccessary settings, file locations and software locations. **You need to change the file locations accordingly**:
+  
 	INPUTS:
 	- maindir: Full Path. This is the main directory where all the analysis directories will be found in. **You need to create this directory.**
 	- inbamsdir: Full path. maindir subdirectory. This is the directory that contains the BAM files which will be used to generate a Panel of Normals (PoN). Each BAM file should be included in a separate (and separately-named) subdirectory inside the inbamsdir. **You need to create this directory and move/link the BAM files inside it (each into a separate directory).**
