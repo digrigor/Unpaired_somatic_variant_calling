@@ -44,5 +44,4 @@ Python scripts to perform somatic variant calling on unpaired samples with a Pan
 
 ### Supplementary scripts:
 These are supplementary scripts containing definitions of functions utilised by the main somatic_calling.py script.
-- **tasks.py**
 - **utils.py**
