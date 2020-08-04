@@ -9,13 +9,12 @@ call_bams = maindir+"call_bams/"
 
 #SOFTWARE
 resources="/homedirs_APittman/sgul/shares/Mimir/Genetics_Centre_Bioinformatics_Mimir/resources/"
-vcftools=resources+"vcftools/bin/vcftools"
-plink=resources+"plink_linux_x86_64/plink"
 tabix=resources+"htslib-1.9/tabix"
 bgzip=resources+"htslib-1.9/tabixbgzip"
-vcf_concat=resources+"vcftools/bin/vcf-concat"
 java="java"
 gatk=resources+"gatk-4.0.4.0/gatk-package-4.0.4.0-local.jar"
+
+#REFERENCES
 bwaindex=resources+"Genome_reference_files/human_g1k_v37.fasta"
 exometargets=resources+"Genome_reference_files/BroadExACExomeIntervlas.bed"
 
